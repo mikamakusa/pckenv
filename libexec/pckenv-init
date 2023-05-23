@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+[ -n "${PCKENV_DEBUG}" ] && set -x;
+
+export PATH="${PCKENV_ROOT}/bin:${PATH}";
